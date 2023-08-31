@@ -29,3 +29,16 @@ tracked
   한번이라도 stage에 올라갔고, commit이 되었다면 tracked
 
 commit을 할때는 staged된 파일만 가능
+
+stage에 한번에 모든 파일 올리기
+  git add .
+
+commit하면서 메시지를 동시에 작성하는 옵션
+  -m
+    옵션
+  git commit -m '메시지'
+
+commit하면서 add하는 옵션
+  -a
+  git commit -a
+  
